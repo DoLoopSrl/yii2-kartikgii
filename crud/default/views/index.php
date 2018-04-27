@@ -35,8 +35,11 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="m-portlet__head">
             <div class="m-portlet__head-caption">
                 <div class="m-portlet__head-title">
+                    <span class="m-portlet__head-icon">
+                        <i class="flaticon-users"></i>
+                    </span>
                     <h3 class="m-portlet__head-text">
-                        <i class="flaticon-users"></i> <?= "<?= " ?>Html::encode($this->title) ?>
+                        <?= "<?= " ?>Html::encode($this->title) ?>
                     </h3>
                 </div>
             </div>
